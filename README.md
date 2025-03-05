@@ -2,7 +2,7 @@
 ## Açıklama
 
 Bu proje, C programlama dili kullanılarak geliştirilmiş basit bir uygulamadır. 
-Projede Doğu Karadeniz illeri ve trafik kodlarının [Sehir-Kod.txt](Sehir-Kod.txt) verildiği gibi olduğunu varsayılan ve okutulan şehir koduna göre bölgede yer alıp almadığını inceler. 
+Projede Doğu Karadeniz illeri ve trafik kodlarının [Sehir-Kod.txt](Dogu_Karadeniz_Odev/Sehir-Kod.txt) verildiği gibi olduğunu varsayılan ve okutulan şehir koduna göre bölgede yer alıp almadığını inceler. 
 
 ## Bu Projeyi Nasıl çalıştırabilirim?
 
