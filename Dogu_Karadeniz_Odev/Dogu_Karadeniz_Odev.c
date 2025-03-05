@@ -3,19 +3,19 @@
 
 int main() {
 	FILE* dosya;
-	int j, trafikKodu, okutulanTrafikKodu=0, bulunanTrafikKodu=0;
+	int trafikKodu, okutulanTrafikKodu=0, bulunanTrafikKodu=0;
 	char sehir[30];
 
-	dosya = fopen("Sehir-Kod.txt", "r"); //Dosyayý Acma
+	dosya = fopen("Sehir-Kod.txt", "r"); //DosyayÄ± Acma
 
 	printf("Okutulan sehir kodu?"); //Sehir kodunun okutulmasi
 	scanf("%d",&okutulanTrafikKodu);
 
 	while (fscanf(dosya, "%s %d\n", sehir, &trafikKodu) != EOF)
 	{
-		if (okutulanTrafikKodu==trafikKodu) //Dosyanin icerisinde sehir kodununu bulmaya calýsýyor
+		if (okutulanTrafikKodu==trafikKodu) //Dosyanin icerisinde sehir kodununu bulmaya calÄ±sÄ±yor
 		{
-			bulunanTrafikKodu = trafikKodu; //Bulursa buldugumuz sehir kodunu baska bir degiskene aktarýyor
+			bulunanTrafikKodu = trafikKodu; //Bulursa buldugumuz sehir kodunu baska bir degiskene aktarÄ±yor
 		}
 	}
 
